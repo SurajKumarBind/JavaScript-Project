@@ -1,0 +1,116 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* Body */
+body {
+    min-height: 100vh;
+    background: linear-gradient(135deg, #141e30, #243b55);
+    font-family: 'Poppins', sans-serif;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    padding: 20px 50px;
+    background: rgba(255, 255, 255, 0.05);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 30px;
+}
+
+.nav-links li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s;
+}
+
+.nav-links li a:hover {
+    color: #00c6ff;
+}
+
+/* Container */
+.container {
+    text-align: center;
+    padding: 60px 20px;
+}
+
+/* Title */
+h1 {
+    color: #ffffff;
+    margin-bottom: 20px;
+    font-size: 38px;
+}
+
+/* Bulb Image */
+#light {
+    width: 220px;
+    height: auto;
+    margin: 30px 0;
+    transition: all 0.4s ease;
+    filter: drop-shadow(0 0 20px #fff);
+}
+
+/* Button Group */
+.button-group {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 30px;
+}
+
+/* Buttons */
+.btn {
+    padding: 12px 30px;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.btn.on {
+    background: linear-gradient(45deg, #00dbde, #fc00ff);
+    color: white;
+}
+
+.btn.off {
+    background: linear-gradient(45deg, #ff4e50, #f9d423);
+    color: white;
+}
+
+.btn:hover {
+    transform: scale(1.1);
+    box-shadow: 0 5px 20px rgba(0,0,0,0.4);
+}
+
+/* Description */
+.description {
+    color: #ccc;
+    font-size: 18px;
+    max-width: 700px;
+    margin: 0 auto;
+    line-height: 1.6;
+}

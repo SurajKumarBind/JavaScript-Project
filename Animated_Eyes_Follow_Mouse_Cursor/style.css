@@ -1,0 +1,93 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+
+body{
+    padding-top: 65px;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    background: rgb(133,196,238);
+}
+
+.navbar {
+    width: 100%;
+    height: 80px;
+    background-color: rgb(98, 168, 212);
+    color: white;
+    display: flex;
+    align-items: center;
+    padding-left: 30px;
+    font-size: 1.5rem;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 3px 10px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 10;
+}
+
+
+.center-div{
+    width: 100%;
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.face{
+    width: 600px;
+    height: 550px;
+    background: #fdfb7c;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: #fdfb7c;
+}
+.smile {
+    width: 200px;
+    height: 70px;
+    border: 9px solid rgb(35, 54, 66);
+    border-top: none;
+    border-radius: 0 0 100px 100px;
+    background: transparent;
+    margin-bottom: 65px;
+}
+
+
+.eyes{  
+    width: inherit;
+    height: 380px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    
+}
+
+.eye{
+    width: 200px;
+    height: 200px;
+    background: #f87956;
+    border-radius: 50%;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    box-shadow: rgba(50,50,93,0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -12px,
+                rgba(162, 162, 162, 0.3) 0px 30px 60px -12px;
+    overflow: hidden
+}
+
+.pupil{
+    width: 50px;
+    height: 50px;
+    background: rgb(23, 35, 43);
+    border-radius: 50%;        
+    box-shadow:rgba(0, 0, 0, 0.1) 0px 10px 50;
+    position: relative;
+}

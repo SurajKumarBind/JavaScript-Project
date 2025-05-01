@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Currency Converter</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="https://www.svgrepo.com/show/403469/currency-exchange.svg">
+    <!-- Flag Icons CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flag-icon-css/css/flag-icon.min.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Currency Converter</h1>
+
+        <div class="amount">
+            <input type="number" placeholder="Enter Amount" />
+        </div>
+
+        <div class="dropdowns">
+            <div class="currency-dropdown">
+                <select class="from-currency" title="Select source currency">
+                    <!-- Options will be populated dynamically -->
+                </select>
+            </div>
+
+            <div class="currency-dropdown">
+                <select class="to-currency" title="Select target currency">
+                    <!-- Options will be populated dynamically -->
+                </select>
+            </div>
+        </div>
+
+        <button class="get-exchange">Get Exchange Rate</button>
+
+        <p class="msg">Your exchange rate will appear here</p>
+    </div>
+
+    <script src="app.js"></script>
+</body>
+</html>
